@@ -1,0 +1,95 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    background-color: #030303;
+    scroll-behavior: smooth;
+}
+
+header{
+    height: 100vh;
+    /* background-color:darkolivegreen; */
+}
+
+nav{
+    height: 6vh;
+    padding-top: 1vh;
+    /* background-color:darkcyan; */
+}
+
+.logo{
+    /* background-color: blue; */
+    color: cornsilk;
+    font-size: 40px;
+    padding-left: 2vh;
+    position: fixed;
+}
+
+.logo:hover{
+    opacity: 0.6;
+}
+
+.intro{
+    /* background-color: darkorange; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60vh;
+}
+
+.container{
+    display: inline-block;
+    /* background-color: crimson; */
+    width: fit-content;
+}
+
+.intro_hello{
+    overflow: hidden;
+    border-right: .20em solid;
+    /* background-color: darkkhaki; */
+    /* border-top: .20em solid; */
+    padding-left: 2vh;
+    margin: 0;
+    border-radius: 2px;
+    white-space: nowrap;
+    color:cornsilk;
+    animation: typing 2s infinite steps(20), blinking 0.5s infinite;
+    font-size: 1.6em;
+}
+
+
+.intro_tagline{
+    /* background-color:cyan; */
+    /* padding-top: 20vh;*/
+    padding-left: 2vh;
+    padding-bottom: 10vh;
+    display:inline-flex;
+    color:cornsilk;
+    font-size: 30px;
+}
+
+.myname{
+    font-size: 100px;
+    margin-left: 20px;
+    /* background-color: darkkhaki; */
+}
+
+
+.aboutMe{
+    height: 100vh;
+}
+
+
+
+footer{
+    height: 25vh;
+    background-color: antiquewhite;
+}
+
+@keyframes typing {
+    0% { width: 0 }
+    100% { width: 100% }
+  }
+  @keyframes blinking {
+    0% { border-color: transparent }
+    100% { border-color: green; }
+  }
