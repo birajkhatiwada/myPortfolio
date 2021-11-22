@@ -1,10 +1,11 @@
 body, html{
 
     --color:rgb(0, 0, 0);
-    --title-color: #9BD1FA;
+    --title-color: #4688bb;
     color: var(--color);
     margin: 0;
     padding: 0;
+    /* background: linear-gradient(#faf6f6, #d3b7b7); */
     background-color: #faf6f6;
     /* opacity: 0.9; */
     scroll-behavior: smooth;
@@ -12,30 +13,59 @@ body, html{
 }
 
 header{
-    height: 100vh;
-    /* background-color:darkolivegreen; */
+    /* height: 100vh; */
+    /* background:linear-gradient(#686363, #faf6f6) */
 }
 
 nav{
-    height: 6vh;
-    padding-top: 1vh;
+    background-color:  rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 5px; */
+    /* padding-top: 2vh; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
     /* display: inline-block; */
     /* background-color:darkcyan; */
 }
+
 
 .logo{
     /* background-color: blue;/ */
     color: var(--title-color);
     font-size: 50px;
     margin-left: 2vh;
-    position: fixed;
+    /* position: fixed; */
     width: fit-content;
-  
+    text-decoration: none;
+    transition: 100ms transform ease-in-out;
 }
 
 .logo:hover{
     opacity: 0.6;
+    cursor: pointer;
+    transform: scale(1.025);
 }
+
+.other-works{
+    margin-right: 6vh;
+    margin-top: 1vh;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--title-color);
+    transition: 100ms transform ease-in-out;
+
+}
+
+.other-works:hover{
+    cursor: pointer;
+    transform: scale(1.025);
+
+}
+
 
 .intro{
     /* background-color: darkorange; */
@@ -202,16 +232,17 @@ display: grid;
 grid-template-columns: repeat(12, 1fr);
 grid-template-rows: repeat(5, 1fr);
 grid-gap: 10px;
-/* background: turquoise; */
  /* color: var(--title-color); */
  /* background: white; */
- /* align-items: flex-start; */
+ align-items: flex-start;
 }
 
 
 
 .project-item{
     /* background-color: honeydew; */
+    /* background: #9BD1FA; */
+
     /* display: flex;
     flex-direction: column; */
     overflow: hidden; 
@@ -229,6 +260,10 @@ grid-gap: 10px;
     color: var(--title-color);
     padding-left: 16vh;
     margin-bottom: 5vh;
+}
+
+.project-body{
+    visibility: hidden;
 }
 
 .project-item-title{
@@ -330,6 +365,14 @@ span{
 .instagram{
     height: 50px;
 }
+
+
+.bottom{
+    height: 10vh;
+    background-color: black;
+}
+
+
 
 @keyframes typing {
     0% { width: 0 }

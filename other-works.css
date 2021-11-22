@@ -1,0 +1,139 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Share Tech Mono', monospace;
+    --title-color: #4688bb;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav{
+    background-color:  rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: space-between;
+    height: 6vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    /* display: inline-block; */
+    /* background-color:darkcyan; */
+}
+
+.logo{
+    /* background-color: blue;/ */
+    color: var(--title-color);
+    font-size: 50px;
+    margin-left: 2vh;
+    /* position: fixed; */
+    width: fit-content;
+    text-decoration: none;
+    transition: 100ms transform ease-in-out;
+
+}
+
+.logo:hover{
+    opacity: 0.6;
+    cursor: pointer;
+    transform: scale(1.025);
+
+}
+
+.home{
+    margin-right: 6vh;
+    margin-top: 1vh;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--title-color);
+    transition: 100ms transform ease-in-out;
+
+}
+
+.home:hover{
+    cursor: pointer;
+    transform: scale(1.025);
+
+}
+
+
+.title{
+    margin: 20vh 10vh 5vh 10vh;
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--title-color);
+}
+
+.gallery{
+    display: grid;
+    margin: 0 17vh 7vh 17vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 150px;
+    gap: 15px;
+}
+
+.gallery-item{
+    align-content: center;
+    overflow: hidden;
+}
+
+ .gallery-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 200ms transform ease-in-out;
+    overflow: hidden;
+} 
+
+.gallery-item img:hover{
+    transform : scale(1.025);
+}
+
+.v-stretch{
+    grid-row: span 2;
+}
+
+.bv-stretch{
+    grid-row: span 3;
+}
+
+.h-stretch{
+    grid-column: span 2;
+}
+
+.bh-stretch{
+    grid-column: span 3;
+}
+
+.vh-stretch{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.bvh-stretch{
+    grid-column: span 3;
+    grid-row: span 3;
+}
+
+.time{
+    grid-column: span 2;
+    grid-row: span 3;
+}
+
+.pain3{
+    grid-column: span 2;
+}
+
+.facePic{
+    grid-row: span 4;
+}
+
+.alien{
+    grid-row: span 3;
+}
+
+
+footer{
+    height: 10vh;
+    background-color: black;
+}
