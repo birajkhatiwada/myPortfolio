@@ -15,6 +15,9 @@ body, html{
 header{
     /* height: 100vh; */
     /* background:linear-gradient(#686363, #faf6f6) */
+    background: linear-gradient(to right, #ffffff 0%, #ffffff 27%, var(--color) 27%, var(--color) 100%);
+    padding-top: 60vh;
+
 }
 
 nav{
@@ -73,7 +76,7 @@ nav{
     position: relative;
     display: flex;
     flex-direction: column;
-    margin-top: 60vh;
+    /* margin-top: 60vh; */
     margin-left: 15vh;
 }
 
@@ -112,6 +115,10 @@ nav{
     font-size: 100px;
     margin-left: 20px;
     /* background-color: darkkhaki; */
+}
+
+.Khatiwada{
+    color: white;
 }
 
 
