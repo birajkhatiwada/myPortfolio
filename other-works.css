@@ -11,20 +11,19 @@ nav{
     background-color:  rgba(0, 0, 0, 1);
     display: flex;
     justify-content: space-between;
-    height: 6vh;
+    height: 7vh;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1;
-    /* display: inline-block; */
-    /* background-color:darkcyan; */
 }
 
 .logo{
     /* background-color: blue;/ */
     color: var(--title-color);
-    font-size: 50px;
+    font-size: 40px;
     margin-left: 2vh;
+    padding-top: 1px;
     /* position: fixed; */
     width: fit-content;
     text-decoration: none;
@@ -42,7 +41,7 @@ nav{
 .home{
     margin-right: 6vh;
     margin-top: 1vh;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     text-decoration: none;
     color: var(--title-color);
@@ -58,7 +57,9 @@ nav{
 
 
 .title{
-    margin: 20vh 10vh 5vh 10vh;
+    background: black;
+    padding: 20vh 10vh 5vh 10vh;
+    margin-bottom: 7vh;
     font-size: 40px;
     font-weight: 700;
     color: var(--title-color);
