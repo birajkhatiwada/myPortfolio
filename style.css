@@ -83,7 +83,7 @@ a{
 }
 
 .resume{
-    margin-right: 1vw;
+    margin-right: 10px;
 }
 
 .intro{
@@ -247,7 +247,17 @@ grid-gap: 10px;
 }
 
 .project-body{
+    margin-top: 10px;
     font-family: 'San Francisco';
+}
+
+.github-link{
+    color: var(--color);
+    margin-top: 10px;
+}
+
+.github-link:hover{
+    opacity: 0.75;
 }
 
 .project-item-title{
@@ -319,8 +329,8 @@ grid-gap: 10px;
 
 
 .footer-img{
-    fill: var(--title-color);
-    height: 40px;  
+    /* fill: var(--title-color); */
+    /* height: 40px;   */
     cursor: pointer;  
     transition: transform .2s ease-in-out;
 }

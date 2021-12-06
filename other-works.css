@@ -22,7 +22,7 @@ nav{
     /* background-color: blue;/ */
     color: var(--title-color);
     font-size: 40px;
-    margin-left: 2vh;
+    margin-left: 6vh;
     padding-top: 1px;
     /* position: fixed; */
     width: fit-content;
@@ -36,6 +36,32 @@ nav{
     cursor: pointer;
     transform: scale(1.025);
 
+}
+
+a{
+    text-decoration: none;
+}
+
+.right-nav{
+    margin-top: 1vh;
+}
+
+.right-nav-item{
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--title-color);
+    transition: 100ms transform ease-in-out;
+
+}
+
+.right-nav-item:hover{
+    opacity: 0.6;
+    cursor: pointer;
+    transform: scale(1.025);
+}
+
+.resume{
+    margin-right: 5px;
 }
 
 .home{
@@ -58,7 +84,7 @@ nav{
 
 .title{
     background: black;
-    padding: 20vh 10vh 5vh 10vh;
+    padding: 20vh 10vh 5vh 17vh;
     margin-bottom: 7vh;
     font-size: 40px;
     font-weight: 700;
