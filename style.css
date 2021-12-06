@@ -199,8 +199,8 @@ a{
 
 
 .projects-container{
-    /* background-color: yellow; */
-    margin-top: 10vh;
+    /* background-color: var(--title-colors); */
+   margin-top: 10vh;
     padding: 0 250px;
 }
 
@@ -240,14 +240,13 @@ grid-gap: 10px;
 .project-title{
     background: var(--title-color);
     font-weight: 700;
-    font-size: 50px;
+    font-size: 30px;
     color: var(--color);
     /* padding-left: 16vh; */
     margin-bottom: 5vh;
 }
 
 .project-body{
-    /* visibility: hidden; */
     font-family: 'San Francisco';
 }
 
