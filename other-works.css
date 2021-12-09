@@ -11,7 +11,7 @@ nav{
     background-color:  rgba(0, 0, 0, 1);
     display: flex;
     justify-content: space-between;
-    height: 7vh;
+    height: 40px;
     position: fixed;
     top: 0;
     width: 100%;
@@ -21,7 +21,8 @@ nav{
 .logo{
     /* background-color: blue;/ */
     color: var(--title-color);
-    font-size: 40px;
+    font-size: 30px;
+    font-weight: bolder;
     margin-left: 6vh;
     padding-top: 1px;
     /* position: fixed; */
@@ -47,11 +48,11 @@ a{
 }
 
 .right-nav-item{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     color: var(--title-color);
     transition: 100ms transform ease-in-out;
-
+    /* background-color: violet; */
 }
 
 .right-nav-item:hover{
@@ -61,16 +62,21 @@ a{
 }
 
 .resume{
-    margin-right: 5px;
+    /* margin-right: 5px; */
+}
+
+.resume-svg{
+    fill: var(--title-color);
+}
+
+.home-svg{
+    fill: var(--title-color);
 }
 
 .home{
     margin-right: 6vh;
     margin-top: 1vh;
-    font-size: 25px;
-    font-weight: bold;
     text-decoration: none;
-    color: var(--title-color);
     transition: 100ms transform ease-in-out;
 
 }
