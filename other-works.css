@@ -1,10 +1,16 @@
+
 body{
     background-color: rgb(255, 255, 255);
     font-family: 'Share Tech Mono', monospace;
     --title-color: #4688bb;
     margin: 0;
-    padding: 0;
+         padding: 0;
 
+
+
+
+
+    
 }
 
 nav{
